@@ -1,6 +1,6 @@
 <style src="./annotationLayer.css"></style>
 <script>
-
+	console.log('componentFactory.js')
 	import componentFactory from './componentFactory.js'
 
 	if ( process.env.VUE_ENV !== 'server' ) {
